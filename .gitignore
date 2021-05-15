@@ -1,0 +1,13 @@
+node_modules/
+
+.dist
+.credentials.json
+
+archives/
+tests/
+__*
+
+logs.txt
+package-lock.json
+
+#src/db/*
