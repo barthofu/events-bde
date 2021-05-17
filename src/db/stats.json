@@ -1,9 +1,23 @@
 {
   "actual": {
     "commands": {
-      "total": 0,
-      "details": {}
+      "total": 16,
+      "details": {
+        "create": 15,
+        "": 1
+      }
     }
   },
-  "daily": []
+  "daily": [
+    {
+      "date": "15-05-2021",
+      "guilds": 1,
+      "users": 1,
+      "activeUsers": 1,
+      "commands": {
+        "total": 0,
+        "details": {}
+      }
+    }
+  ]
 }

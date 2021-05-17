@@ -1,0 +1,81 @@
+{
+
+
+    "templates": [
+
+        {
+            "name": "drawing",
+            "fancyName": "Drawing",
+            "emote": "💠",
+            "type": "culture",
+            "channels": [
+                {
+                    "name": "📖｜règlement",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🖍｜dessins",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🎨 ➤ Art Museum",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        }
+
+    ],
+
+
+
+
+
+
+
+
+
+
+
+    "default": [
+        
+        {
+            "name": "▬▬▬▬▬▬▬▬▬",
+            "type": "text",
+            "permissionsAuth": [],
+            "permissionsForbid": [],
+            "defaultMessage": ""
+        }, 
+        {
+            "name": "⚙｜orga",
+            "type": "text",
+            "permissionsAuth": [],
+            "permissionsForbid": [],
+            "defaultMessage": ""
+        },
+        {
+            "name": "▬▬▬▬▬▬▬▬▬",
+            "type": "text",
+            "permissionsAuth": ["VIEW_CHANNEL"],
+            "permissionsForbid": ["SEND_MESSAGES"],
+            "defaultMessage": ""
+        }
+    ]
+    
+}

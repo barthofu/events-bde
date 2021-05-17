@@ -1,5 +1,5 @@
 {
-  "prefix": "!",
+  "prefix": ">",
   "description": "",
   "language": "fr",
   "owner": "260908777446965248",
@@ -35,6 +35,20 @@
       "commands": null,
       "guildCreate": null,
       "guildDelete": null
-    }
-  }
+    },
+    "archiveCategory": "843131515545190400",
+    "inscriptions": "843131521766522890"
+  },
+  "teamsConfig": [ 
+    { "emote": "🔵", "color": "0078D7" }, 
+    { "emote": "🔴", "color": "E81224" }, 
+    { "emote": "🟢", "color": "16C60C" }, 
+    { "emote": "🟡", "color": "FFF100" }, 
+    { "emote": "🟤", "color": "8E562E" }, 
+    { "emote": "🟠", "color": "F7630C" }, 
+    { "emote": "🟣", "color": "886CE4" }, 
+    { "emote": "⚪", "color": "F2F2F2" }, 
+    { "emote": "⚫", "color": "383838" }, 
+    { "emote": "🌐", "color": "7FDDF8" }
+  ]
 }

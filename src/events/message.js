@@ -27,7 +27,7 @@ module.exports = class {
         checker.checkUser(msg.author.id)
 
         for (let command of bot.commands.array()) {
-
+            
             if (command.info.name == cmd || 
                 command.info.aliases.map(val => val.replace("_", "")).includes(cmd) || 
                 (command.info.name.includes('/') && msg.content.slice(prefix.length).trim().split(" ").join("/").startsWith(command.info.name))  ||
