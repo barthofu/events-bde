@@ -1,10 +1,11 @@
 {
   "actual": {
     "commands": {
-      "total": 16,
+      "total": 83,
       "details": {
-        "create": 15,
-        "": 1
+        "create": 43,
+        "": 4,
+        "list": 36
       }
     }
   },
@@ -17,6 +18,33 @@
       "commands": {
         "total": 0,
         "details": {}
+      }
+    },
+    {
+      "date": "17-05-2021",
+      "guilds": 1,
+      "users": 1,
+      "activeUsers": 1,
+      "commands": {
+        "total": 16,
+        "details": {
+          "create": 15,
+          "": 2
+        }
+      }
+    },
+    {
+      "date": "17-05-2021",
+      "guilds": 1,
+      "users": 2,
+      "activeUsers": 1,
+      "commands": {
+        "total": 75,
+        "details": {
+          "create": 39,
+          "": 4,
+          "list": 32
+        }
       }
     }
   ]

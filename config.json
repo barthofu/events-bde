@@ -30,6 +30,7 @@
       "type": "STREAMING"
     }
   ],
+  "guildId": "773634979355557928",
   "channels": {
     "logs": {
       "commands": null,
@@ -37,7 +38,13 @@
       "guildDelete": null
     },
     "archiveCategory": "843131515545190400",
-    "inscriptions": "843131521766522890"
+    "roleReaction": "843131521766522890"
+  },
+  "roles": {
+    "exteriorMembers": "843967140688429056"
+  },
+  "emotes": {
+    "participation": "👋"
   },
   "teamsConfig": [ 
     { "emote": "🔵", "color": "0078D7" }, 

@@ -18,7 +18,7 @@ module.exports = class {
             throw new Error("Couldn't change folder location!")
         }
 
-        this.bot = new Discord.Client({"restTimeOffset": 100})
+        this.bot = new Discord.Client({ restTimeOffset: 100, partials: ['MESSAGE', 'CHANNEL', 'REACTION'] })
         this.bot.commands = new Discord.Collection()
         this.MessageEmbed = Discord.MessageEmbed
     }

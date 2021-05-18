@@ -1,418 +1,21 @@
 {
-  "upcoming": [
+  "actives": [
     {
-      "id": 1621101279792,
+      "id": 1621330806508,
       "createdBy": "260908777446965248",
+      "archived": false,
       "template": "drawing",
-      "type": "culture",
-      "date": 1621278000000,
-      "teams": 3,
-      "exteriorMembers": false,
-      "category": {
-        "name": "『💠』 Drawing - 17/05",
-        "id": "843184798096031754"
-      },
-      "channels": [
-        {
-          "name": "📖｜règlement",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843184800458473472"
-        },
-        {
-          "name": "🌍｜général",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184804581212160"
-        },
-        {
-          "name": "🖍｜dessins",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184806245564426"
-        },
-        {
-          "name": "🎨 ➤ Art Museum",
-          "type": "voice",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184808376926228"
-        },
-        {
-          "name": "🔴｜équipe-1",
-          "teamChannel": 1,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 1 !",
-          "id": "843184810197254204"
-        },
-        {
-          "name": "🟢｜équipe-2",
-          "teamChannel": 2,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 2 !",
-          "id": "843184812747653180"
-        },
-        {
-          "name": "🟡｜équipe-3",
-          "teamChannel": 3,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 3 !",
-          "id": "843184817008672838"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843184819667337216"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184821282275378"
-        },
-        {
-          "name": "⚙｜orga",
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184826756104202"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843184828694396968"
-        },
-        {
-          "name": "🔴 ➤ Équipe 1",
-          "teamChannel": 1,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184830338039808"
-        },
-        {
-          "name": "🟢 ➤ Équipe 2",
-          "teamChannel": 2,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184831848120330"
-        },
-        {
-          "name": "🟡 ➤ Équipe 3",
-          "teamChannel": 3,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843184833404338177"
-        }
-      ],
-      "roles": [
-        {
-          "name": "▬▬▬▬▬",
-          "color": null,
-          "separatorRole": true,
-          "id": "843184790462529537"
-        },
-        {
-          "name": "『💠』 Drawing",
-          "color": null,
-          "defaultRole": true,
-          "id": "843184791640866817"
-        },
-        {
-          "name": "🦺 Drawing Orga",
-          "color": "ff0000",
-          "orgaRole": true,
-          "id": "843184794796163072"
-        },
-        {
-          "name": "『undefined』 undefined",
-          "color": "E81224",
-          "teamRole": 1,
-          "id": "843184795739226142"
-        },
-        {
-          "name": "『undefined』 undefined",
-          "color": "16C60C",
-          "teamRole": 2,
-          "id": "843184796510584862"
-        },
-        {
-          "name": "『undefined』 undefined",
-          "color": "FFF100",
-          "teamRole": 3,
-          "id": "843184797198974996"
-        }
-      ]
-    },
-    {
-      "id": 1621101880578,
-      "createdBy": "260908777446965248",
-      "template": "drawing",
-      "type": "culture",
-      "date": 1621710000000,
-      "teams": 4,
-      "exteriorMembers": false,
-      "category": {
-        "name": "『💠』 Drawing - 22/05",
-        "id": "843187329132527667"
-      },
-      "channels": [
-        {
-          "name": "📖｜règlement",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843187331337814036"
-        },
-        {
-          "name": "🌍｜général",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187333024710677"
-        },
-        {
-          "name": "🖍｜dessins",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187335029194802"
-        },
-        {
-          "name": "🎨 ➤ Art Museum",
-          "type": "voice",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187336492613684"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843187338455678986"
-        },
-        {
-          "name": "🔴｜équipe-1",
-          "teamChannel": 1,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 1 !",
-          "id": "843187340000493578"
-        },
-        {
-          "name": "🟢｜équipe-2",
-          "teamChannel": 2,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 2 !",
-          "id": "843187344559177728"
-        },
-        {
-          "name": "🟡｜équipe-3",
-          "teamChannel": 3,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 3 !",
-          "id": "843187346949406767"
-        },
-        {
-          "name": "🟤｜équipe-4",
-          "teamChannel": 4,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 4 !",
-          "id": "843187349802319920"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187351890690079"
-        },
-        {
-          "name": "⚙｜orga",
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187353748635659"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843187355418230855"
-        },
-        {
-          "name": "🔴 ➤ Équipe 1",
-          "teamChannel": 1,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187357251403777"
-        },
-        {
-          "name": "🟢 ➤ Équipe 2",
-          "teamChannel": 2,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187359323652116"
-        },
-        {
-          "name": "🟡 ➤ Équipe 3",
-          "teamChannel": 3,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187361067565107"
-        },
-        {
-          "name": "🟤 ➤ Équipe 4",
-          "teamChannel": 4,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843187362779365386"
-        }
-      ],
-      "roles": [
-        {
-          "name": "▬▬▬▬▬",
-          "color": null,
-          "separatorRole": true,
-          "id": "843187323457765378"
-        },
-        {
-          "name": "『💠』 Drawing",
-          "color": null,
-          "defaultRole": true,
-          "id": "843187324564930641"
-        },
-        {
-          "name": "🦺 Drawing Orga",
-          "color": "ff0000",
-          "orgaRole": true,
-          "id": "843187325626613770"
-        },
-        {
-          "name": "『🔴』 Équipe 1",
-          "color": "E81224",
-          "teamRole": 1,
-          "id": "843187326301372456"
-        },
-        {
-          "name": "『🟢』 Équipe 2",
-          "color": "16C60C",
-          "teamRole": 2,
-          "id": "843187326981242920"
-        },
-        {
-          "name": "『🟡』 Équipe 3",
-          "color": "FFF100",
-          "teamRole": 3,
-          "id": "843187327625854986"
-        },
-        {
-          "name": "『🟤』 Équipe 4",
-          "color": "8E562E",
-          "teamRole": 4,
-          "id": "843187328302186556"
-        }
-      ]
-    },
-    {
-      "id": 1621102554039,
-      "createdBy": "260908777446965248",
-      "template": "drawing",
-      "type": "culture",
-      "date": 1623283200000,
+      "date": "2021-06-18T16:00:00.000Z",
       "teams": 2,
       "exteriorMembers": false,
+      "roleReactionMessage": "844147404576260096",
+      "participants": [
+        "260908777446965248",
+        "260908777446965248"
+      ],
       "category": {
-        "name": "『💠』 Drawing - 10/06",
-        "id": "843190047180193812"
+        "name": "『💠』 Drawing - 18/06",
+        "id": "844147391862538260"
       },
       "channels": [
         {
@@ -425,7 +28,7 @@
             "SEND_MESSAGES"
           ],
           "defaultMessage": "",
-          "id": "843190049566752808"
+          "id": "844147393352171531"
         },
         {
           "name": "🌍｜général",
@@ -435,7 +38,7 @@
           ],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190051222323270"
+          "id": "844147394168881182"
         },
         {
           "name": "🖍｜dessins",
@@ -445,7 +48,7 @@
           ],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190052787060787"
+          "id": "844147394962653184"
         },
         {
           "name": "🎨 ➤ Art Museum",
@@ -455,7 +58,7 @@
           ],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190054595723294"
+          "id": "844147395788931112"
         },
         {
           "name": "▬▬▬▬▬▬▬▬▬",
@@ -467,25 +70,25 @@
             "SEND_MESSAGES"
           ],
           "defaultMessage": "",
-          "id": "843190056340422666"
+          "id": "844147396594106378"
         },
         {
-          "name": "🔴｜équipe-1",
+          "name": "🔵｜équipe-1",
           "teamChannel": 1,
           "type": "text",
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "Bienvenue dans le salon privé de l'équipe 1 !",
-          "id": "843190058193780746"
+          "id": "844147397407145984"
         },
         {
-          "name": "🟢｜équipe-2",
+          "name": "🔴｜équipe-2",
           "teamChannel": 2,
           "type": "text",
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "Bienvenue dans le salon privé de l'équipe 2 !",
-          "id": "843190060748636160"
+          "id": "844147399240450068"
         },
         {
           "name": "▬▬▬▬▬▬▬▬▬",
@@ -493,7 +96,7 @@
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190063353430036"
+          "id": "844147400821833758"
         },
         {
           "name": "⚙｜orga",
@@ -501,7 +104,7 @@
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190065131552808"
+          "id": "844147401581527077"
         },
         {
           "name": "▬▬▬▬▬▬▬▬▬",
@@ -513,25 +116,25 @@
             "SEND_MESSAGES"
           ],
           "defaultMessage": "",
-          "id": "843190067366592602"
+          "id": "844147402419863552"
         },
         {
-          "name": "🔴 ➤ Équipe 1",
+          "name": "🔵 ➤ Équipe 1",
           "teamChannel": 1,
           "type": "voice",
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190068633927721"
+          "id": "844147403165663232"
         },
         {
-          "name": "🟢 ➤ Équipe 2",
+          "name": "🔴 ➤ Équipe 2",
           "teamChannel": 2,
           "type": "voice",
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "843190070487547925"
+          "id": "844147403556257793"
         }
       ],
       "roles": [
@@ -539,342 +142,31 @@
           "name": "▬▬▬▬▬",
           "color": null,
           "separatorRole": true,
-          "id": "843190043371503667"
+          "id": "844147387228356621"
         },
         {
-          "name": "『💠』 Drawing",
+          "name": "『💠』 Drawing - 18/06",
           "color": null,
           "defaultRole": true,
-          "id": "843190043773239354"
+          "id": "844147388377595945"
         },
         {
-          "name": "🦺 Drawing Orga",
+          "name": "🦺 Drawing Orga - 18/06",
           "color": "ff0000",
           "orgaRole": true,
-          "id": "843190044851437609"
+          "id": "844147389312925696"
         },
         {
-          "name": "『🔴』 Équipe 1",
-          "color": "E81224",
+          "name": "『🔵』 Équipe 1",
+          "color": "0078D7",
           "teamRole": 1,
-          "id": "843190045468131369"
+          "id": "844147389932896267"
         },
         {
-          "name": "『🟢』 Équipe 2",
-          "color": "16C60C",
-          "teamRole": 2,
-          "id": "843190046135156766"
-        }
-      ]
-    },
-    {
-      "id": 1621102687165,
-      "createdBy": "260908777446965248",
-      "template": "drawing",
-      "type": "culture",
-      "date": 1621648800000,
-      "teams": 2,
-      "exteriorMembers": false,
-      "category": {
-        "name": "『💠』 Drawing - 22/05",
-        "id": "843190667965497385"
-      },
-      "channels": [
-        {
-          "name": "📖｜règlement",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843190669744406529"
-        },
-        {
-          "name": "🌍｜général",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190670763753514"
-        },
-        {
-          "name": "🖍｜dessins",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190671648227378"
-        },
-        {
-          "name": "🎨 ➤ Art Museum",
-          "type": "voice",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190672563503135"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843190673058693121"
-        },
-        {
-          "name": "🔴｜équipe-1",
-          "teamChannel": 1,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 1 !",
-          "id": "843190674324848650"
-        },
-        {
-          "name": "🟢｜équipe-2",
-          "teamChannel": 2,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 2 !",
-          "id": "843190676140195891"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190677772697632"
-        },
-        {
-          "name": "⚙｜orga",
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190678729392160"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "843190679894360114"
-        },
-        {
-          "name": "🔴 ➤ Équipe 1",
-          "teamChannel": 1,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190680906104842"
-        },
-        {
-          "name": "🟢 ➤ Équipe 2",
-          "teamChannel": 2,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "843190681987055626"
-        }
-      ],
-      "roles": [
-        {
-          "name": "▬▬▬▬▬",
-          "color": null,
-          "separatorRole": true,
-          "id": "843190663654277160"
-        },
-        {
-          "name": "『💠』 Drawing",
-          "color": null,
-          "defaultRole": true,
-          "id": "843190664396537877"
-        },
-        {
-          "name": "🦺 Drawing Orga",
-          "color": "ff0000",
-          "orgaRole": true,
-          "id": "843190665307357214"
-        },
-        {
-          "name": "『🔴』 Équipe 1",
+          "name": "『🔴』 Équipe 2",
           "color": "E81224",
-          "teamRole": 1,
-          "id": "843190666174660638"
-        },
-        {
-          "name": "『🟢』 Équipe 2",
-          "color": "16C60C",
           "teamRole": 2,
-          "id": "843190666853875742"
-        }
-      ]
-    },
-    {
-      "id": 1621103901149,
-      "createdBy": "260908777446965248",
-      "template": "drawing",
-      "type": "culture",
-      "date": 1634583600000,
-      "teams": 1,
-      "exteriorMembers": true,
-      "category": {
-        "name": "『💠』 Drawing - 18/10",
-        "id": "843195737047302154"
-      },
-      "channels": [
-        {
-          "name": "📖｜règlement",
-          "id": "843195739454308372"
-        },
-        {
-          "name": "🌍｜général",
-          "id": "843195740167602177"
-        },
-        {
-          "name": "🖍｜dessins",
-          "id": "843195741836804106"
-        },
-        {
-          "name": "🎨 ➤ Art Museum",
-          "id": "843195742709612554"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "id": "843195743838011452"
-        },
-        {
-          "name": "🔴｜équipe-1",
-          "id": "843195744785268766"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "id": "843195746610184223"
-        },
-        {
-          "name": "⚙｜orga",
-          "id": "843195747633201202"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "id": "843195748530782253"
-        },
-        {
-          "name": "🔴 ➤ Équipe 1",
-          "id": "843195749705711636"
-        }
-      ],
-      "roles": [
-        {
-          "name": "▬▬▬▬▬",
-          "id": "843195733796323358"
-        },
-        {
-          "name": "『💠』 Drawing",
-          "id": "843195734559817728"
-        },
-        {
-          "name": "🦺 Drawing Orga",
-          "id": "843195735259611216"
-        },
-        {
-          "name": "『🔴』 Équipe 1",
-          "id": "843195735931224114"
-        }
-      ]
-    },
-    {
-      "id": 1621103985653,
-      "createdBy": "260908777446965248",
-      "template": "drawing",
-      "type": "culture",
-      "date": 1627153200000,
-      "teams": 1,
-      "exteriorMembers": true,
-      "category": {
-        "name": "『💠』 Drawing - 24/07",
-        "id": "843196053384724480"
-      },
-      "channels": [
-        {
-          "name": "📖｜règlement",
-          "id": "843196055721869342"
-        },
-        {
-          "name": "🌍｜général",
-          "id": "843196056812781608"
-        },
-        {
-          "name": "🖍｜dessins",
-          "id": "843196057785073705"
-        },
-        {
-          "name": "🎨 ➤ Art Museum",
-          "id": "843196059106279445"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "id": "843196060355657728"
-        },
-        {
-          "name": "🔴｜équipe-1",
-          "id": "843196061190586399"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "id": "843196063238324234"
-        },
-        {
-          "name": "⚙｜orga",
-          "id": "843196063913345085"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "id": "843196065326956604"
-        },
-        {
-          "name": "🔴 ➤ Équipe 1",
-          "id": "843196066266087444"
-        }
-      ],
-      "roles": [
-        {
-          "name": "▬▬▬▬▬",
-          "id": "843196049048600587"
-        },
-        {
-          "name": "『💠』 Drawing",
-          "id": "843196050755682324"
-        },
-        {
-          "name": "🦺 Drawing Orga",
-          "id": "843196051178389525"
-        },
-        {
-          "name": "『🔴』 Équipe 1",
-          "id": "843196052068106271"
+          "id": "844147390847385610"
         }
       ]
     }
