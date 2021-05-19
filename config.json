@@ -22,12 +22,12 @@
   },
   "activities": [
     {
-      "text": "discord.js v12",
-      "type": "PLAYING"
+      "text": "les IUT dominer le monde",
+      "type": "WATCHING"
     },
     {
-      "text": "some knowledge",
-      "type": "STREAMING"
+      "text": "créer des évènements",
+      "type": "PLAYING"
     }
   ],
   "guildId": "773634979355557928",
@@ -41,7 +41,8 @@
     "roleReaction": "843131521766522890"
   },
   "roles": {
-    "exteriorMembers": "843967140688429056"
+    "exteriorMembers": "844161478620872733",
+    "orga": "843131380891516999"
   },
   "emotes": {
     "participation": "👋"

@@ -13,7 +13,7 @@ const commandParams = {
     memberPermission: [],
     botPermission: [],
     owner: false,
-    cooldown: 4000
+    cooldown: null
 
 }
 
@@ -29,18 +29,21 @@ module.exports = class extends CommandPattern {
 
         const embed = new MessageEmbed()
             .setTitle(lang["help"]["title"][la])
+            .setColor(color)
             .setAuthor(msg.author.username, msg.author.displayAvatarURL({dynamic: true}))
             .setThumbnail("https://upload.wikimedia.org/wikipedia/commons/a/a4/Cute-Ball-Help-icon.png")
 
-        const categories = [...new Set(bot.commands.map(command => command.categoryName))]
+        const categories = [...new Set(bot.commands.map(command => command.info.categoryName))]
 
         for (let category of categories) {
 
-            const content = bot.commands.filter(command => command.categoryName === category).map(command => {
-                command.verification.enabled == true && command.permission.owner == false ? 
-                    `\`${prefix}${command.info.name.split("/").join(" ")}\`${command.info.aliases.filter(val => !val.startsWith("_")).length > 0 ? ` (ou ${command.info.aliases.filter(val => !val.startsWith("_")).map(val => `\`${prefix}${val}\``).join(" | ")})`:""} | ${this.checkCommand(command)} ${command["info"]["desc"][la]}\n` : ""
+            const content = bot.commands.filter(command => command.info.categoryName === category).map(command => {
+                return command.verification.enabled == true && command.permission.owner == false ? 
+                    `\`${prefix}${command.info.name.split("/").join(" ")} ${command.info.args.map((arg,i) => {
+                        const cadre = (i === command.info.args.length - 1 && arg.optional) ? ['[', ']'] : ['<', '>']
+                        return `${cadre[0]}${arg.type === 'mention' ? '@': ''}${typeof arg.name === 'object' ? arg.name[la] : arg.name}${cadre[1]}`
+                    }).join(" ")}\`${command.info.aliases.filter(val => !val.startsWith("_")).length > 0 ? ` (ou ${command.info.aliases.filter(val => !val.startsWith("_")).map(val => `\`${prefix}${val}\``).join(" | ")})`:""} | ${this.checkCommand(command)} ${command["info"]["desc"][la]}\n` : ""
             }).join("")
-
             if (content.length > 0) embed.addField(category, content)
         }
 
@@ -53,6 +56,7 @@ module.exports = class extends CommandPattern {
         let text = ""
         if (command.verification.nsfw == true) text+="[**NSFW**] "
         if (command.permission.memberPermission.includes("ADMINISTRATOR")) text+="[**ADMIN**] "
+        if (command.permission.memberPermission.includes("MANAGE_MESSAGES")) text+="[**BDE**] "
         if (command.info.cooldown !== null) text+=`[**${command.info.cooldown}** sec] `
         return text
     }

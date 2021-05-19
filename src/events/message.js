@@ -46,9 +46,9 @@ module.exports = class {
 
                 //check args
                 let {error, args} = await this.checkArgs(command, rawArgs, msg, la)
-                if (error) return msg.reply(`${error}\ne.g: \`${prefix}${command.info.name.split("/").join(" ")} ${command.info.args.map((arg,i) => {
+                if (error) return msg.reply(`${error}\ne.g: \`${prefix}${command.info.name.split("/").join(" ")}${command.info.args.map((arg,i) => {
                     const cadre = (i === command.info.args.length - 1 && arg.optional) ? ['[', ']'] : ['<', '>']
-                    return `${cadre[0]}${arg.type === 'mention' ? '@': ''}${typeof arg.name === 'object' ? arg.name[la] : arg.name}${cadre[1]}`
+                    return ` ${cadre[0]}${arg.type === 'mention' ? '@': ''}${typeof arg.name === 'object' ? arg.name[la] : arg.name}${cadre[1]}`
                 }).join(" ")}\``)
 
                 //remove actual args from the raw args

@@ -1,25 +1,22 @@
 {
   "actives": [
     {
-      "id": 1621330806508,
+      "id": 1621354863022,
       "createdBy": "260908777446965248",
       "archived": false,
-      "template": "drawing",
-      "date": "2021-06-18T16:00:00.000Z",
-      "teams": 2,
-      "exteriorMembers": false,
-      "roleReactionMessage": "844147404576260096",
-      "participants": [
-        "260908777446965248",
-        "260908777446965248"
-      ],
+      "template": "echecs",
+      "date": "2021-05-21T18:30:00.000Z",
+      "teams": 0,
+      "exteriorMembers": true,
+      "roleReactionMessage": "844248387263004722",
+      "participants": [],
       "category": {
-        "name": "『💠』 Drawing - 18/06",
-        "id": "844147391862538260"
+        "name": "『♟️』 Échecs - 21/05",
+        "id": "844248376883150849"
       },
       "channels": [
         {
-          "name": "📖｜règlement",
+          "name": "📃｜règlement",
           "type": "text",
           "permissionsAuth": [
             "VIEW_CHANNEL"
@@ -28,7 +25,19 @@
             "SEND_MESSAGES"
           ],
           "defaultMessage": "",
-          "id": "844147393352171531"
+          "id": "844248379076771910"
+        },
+        {
+          "name": "🏆｜scores",
+          "type": "text",
+          "permissionsAuth": [
+            "VIEW_CHANNEL"
+          ],
+          "permissionsForbid": [
+            "SEND_MESSAGES"
+          ],
+          "defaultMessage": "",
+          "id": "844248379406942239"
         },
         {
           "name": "🌍｜général",
@@ -38,57 +47,7 @@
           ],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "844147394168881182"
-        },
-        {
-          "name": "🖍｜dessins",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "844147394962653184"
-        },
-        {
-          "name": "🎨 ➤ Art Museum",
-          "type": "voice",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "844147395788931112"
-        },
-        {
-          "name": "▬▬▬▬▬▬▬▬▬",
-          "type": "text",
-          "permissionsAuth": [
-            "VIEW_CHANNEL"
-          ],
-          "permissionsForbid": [
-            "SEND_MESSAGES"
-          ],
-          "defaultMessage": "",
-          "id": "844147396594106378"
-        },
-        {
-          "name": "🔵｜équipe-1",
-          "teamChannel": 1,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 1 !",
-          "id": "844147397407145984"
-        },
-        {
-          "name": "🔴｜équipe-2",
-          "teamChannel": 2,
-          "type": "text",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "Bienvenue dans le salon privé de l'équipe 2 !",
-          "id": "844147399240450068"
+          "id": "844248380570075146"
         },
         {
           "name": "▬▬▬▬▬▬▬▬▬",
@@ -96,7 +55,7 @@
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "844147400821833758"
+          "id": "844248381286776862"
         },
         {
           "name": "⚙｜orga",
@@ -104,7 +63,7 @@
           "permissionsAuth": [],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "844147401581527077"
+          "id": "844248385338998844"
         },
         {
           "name": "▬▬▬▬▬▬▬▬▬",
@@ -116,57 +75,35 @@
             "SEND_MESSAGES"
           ],
           "defaultMessage": "",
-          "id": "844147402419863552"
+          "id": "844248386461892608"
         },
         {
-          "name": "🔵 ➤ Équipe 1",
-          "teamChannel": 1,
+          "name": "♟ ➤ Échecs",
           "type": "voice",
-          "permissionsAuth": [],
+          "permissionsAuth": ["VIEW_CHANNEL"],
           "permissionsForbid": [],
           "defaultMessage": "",
-          "id": "844147403165663232"
-        },
-        {
-          "name": "🔴 ➤ Équipe 2",
-          "teamChannel": 2,
-          "type": "voice",
-          "permissionsAuth": [],
-          "permissionsForbid": [],
-          "defaultMessage": "",
-          "id": "844147403556257793"
-        }
+          "id": "844501016002822154"
+      }
       ],
       "roles": [
         {
           "name": "▬▬▬▬▬",
           "color": null,
           "separatorRole": true,
-          "id": "844147387228356621"
+          "id": "844248374785998898"
         },
         {
-          "name": "『💠』 Drawing - 18/06",
+          "name": "『♟️』 Échecs - 21/05",
           "color": null,
           "defaultRole": true,
-          "id": "844147388377595945"
+          "id": "844248375556702218"
         },
         {
-          "name": "🦺 Drawing Orga - 18/06",
+          "name": "🦺 Échecs Orga - 21/05",
           "color": "ff0000",
           "orgaRole": true,
-          "id": "844147389312925696"
-        },
-        {
-          "name": "『🔵』 Équipe 1",
-          "color": "0078D7",
-          "teamRole": 1,
-          "id": "844147389932896267"
-        },
-        {
-          "name": "『🔴』 Équipe 2",
-          "color": "E81224",
-          "teamRole": 2,
-          "id": "844147390847385610"
+          "id": "844248376409325638"
         }
       ]
     }

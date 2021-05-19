@@ -6,7 +6,9 @@ module.exports = class {
 
         if (reaction.partial) await reaction.fetch()
 
-        if (reaction.message.channel.id === config.channels.roleReaction && reaction.emoji.name === config.emotes.participation && !user.bot) {
+        if (user.bot) return
+
+        if (reaction.message.channel.id === config.channels.roleReaction && reaction.emoji.name === config.emotes.participation) {
 
             //get the corresponding event
             const eventObj = db.events.get('actives').find(event => event.roleReactionMessage === reaction.message.id).value()
@@ -24,6 +26,17 @@ module.exports = class {
             //add user to participants 
             event.addParticipant(member.id)
 
+        }
+
+        else if (reaction.message.channel.id === '844197708842532935') {
+            
+            const roles = [
+                '843131380061700126',
+                '844162056219262987',
+                '843131381667069952'
+            ]
+
+            for (const role of roles) reaction.message.guild.members.cache.get(user.id).roles.add(role)
         }
 
     }

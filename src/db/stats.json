@@ -1,11 +1,13 @@
 {
   "actual": {
     "commands": {
-      "total": 83,
+      "total": 119,
       "details": {
-        "create": 43,
+        "create": 49,
         "": 4,
-        "list": 36
+        "list": 51,
+        "help": 13,
+        "stats": 2
       }
     }
   },
@@ -44,6 +46,22 @@
           "create": 39,
           "": 4,
           "list": 32
+        }
+      }
+    },
+    {
+      "date": "18-05-2021",
+      "guilds": 1,
+      "users": 138,
+      "activeUsers": 2,
+      "commands": {
+        "total": 119,
+        "details": {
+          "create": 49,
+          "": 4,
+          "list": 51,
+          "help": 13,
+          "stats": 2
         }
       }
     }

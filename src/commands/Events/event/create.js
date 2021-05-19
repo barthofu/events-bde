@@ -7,12 +7,12 @@ const commandParams = {
     args: [],
     desc: {
         en: "",
-        fr: ""
+        fr: "Crée un évènement sur mesure avec les templates disponibles."
     },
     enabled: true,
     dm: false,
     nsfw: false,
-    memberPermission: ["ADMINISTRATOR"],
+    memberPermission: ["MANAGE_MESSAGES"],
     botPermission: [],
     owner: false,
     cooldown: null
@@ -100,7 +100,7 @@ module.exports = class extends CommandPattern {
 
     async setTemplate (event, msg) {
 
-        const data = await this.askToUser(msg, `Entre le nom de la template voulue pour créer l'évènement.\nRappel des templates existantes :\n\`\`\`\n${db.templates.get('templates').map(e => e.name).value().join(' - ')}\n\`\`\``, db.templates.get('templates').map(e => e.name).value())
+        const data = await this.askToUser(msg, `Entre le nom de la template voulue pour créer l'évènement.\nRappel des templates existantes :\n${db.templates.get('templates').map(e => `\`${e.name}\` *(${e.fancyName})*`).value().join('\r\n')}`, db.templates.get('templates').map(e => e.name).value())
         if (data === -1) return false
 
         const template = db.templates.get('templates').find(e => e.name === data).value()

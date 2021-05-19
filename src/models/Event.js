@@ -299,7 +299,8 @@ module.exports = class {
                 permissionOverwrites: [
                     { id: bot.guilds.cache.get(config.guildId).id, deny: ["VIEW_CHANNEL"] },
                     { id: this.#roles.find(role => role.defaultRole).id, allow: ["VIEW_CHANNEL"] },
-                    { id: this.#roles.find(role => role.orgaRole).id, allow: ["VIEW_CHANNEL"] }
+                    { id: this.#roles.find(role => role.orgaRole).id, allow: ["VIEW_CHANNEL"] },
+                    { id: config.roles.orga, allow: ["VIEW_CHANNEL"] }
                 ]
             })
 
@@ -331,7 +332,8 @@ module.exports = class {
                 const permissionOverwrites = [
                     { id: bot.guilds.cache.get(config.guildId).id, deny: ["VIEW_CHANNEL"] },
                     { id: this.#roles.find(role => role.defaultRole).id, allow: channelConfig.permissionsAuth, deny: channelConfig.permissionsForbid },
-                    { id: this.#roles.find(role => role.orgaRole).id, allow: ["VIEW_CHANNEL", "SEND_MESSAGES"] }
+                    { id: this.#roles.find(role => role.orgaRole).id, allow: ["VIEW_CHANNEL", "SEND_MESSAGES"] },
+                    { id: config.roles.orga, allow: ["VIEW_CHANNEL", "SEND_MESSAGES"] }
                 ]
 
                 //define team permissions

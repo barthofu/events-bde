@@ -7,6 +7,7 @@ module.exports = class {
         client.startingConsole()
         checker.checkGuilds()
         logger.log("connected")
+        bot.user.setStatus('idle')
         
         setInterval(() => {
             

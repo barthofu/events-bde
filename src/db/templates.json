@@ -4,6 +4,23 @@
     "templates": [
 
         {
+            "name": "quizz",
+            "fancyName": "Quizz",
+            "emote": "🧾",
+            "type": "culture",
+            "channels": [
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+        {
             "name": "drawing",
             "fancyName": "Drawing",
             "emote": "💠",
@@ -32,6 +49,147 @@
                 },
                 {
                     "name": "🎨 ➤ Art Museum",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+
+        {
+            "name": "quizz",
+            "fancyName": "Quizz",
+            "emote": "🧾",
+            "type": "culture",
+            "channels": [
+                {
+                    "name": "📖｜règlement",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+        {
+            "name": "projection",
+            "fancyName": "Projection",
+            "emote": "📽",
+            "type": "culture",
+            "channels": [
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🎬｜catalogue",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📺 ➤ Salle 1",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📺 ➤ Salle 2",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "📺 ➤ Salle 3",
+                    "type": "voice",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+
+        {
+            "name": "lol",
+            "fancyName": "League of Legends",
+            "emote": "🎮",
+            "type": "event",
+            "channels": [
+                {
+                    "name": "📃｜règlement",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🏆｜brackets",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                }
+            ]
+    
+        },
+
+
+        {
+            "name": "echecs",
+            "fancyName": "Échecs",
+            "emote": "♟️",
+            "type": "event",
+            "channels": [
+                {
+                    "name": "📃｜règlement",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🏆｜scores",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": ["SEND_MESSAGES"],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "🌍｜général",
+                    "type": "text",
+                    "permissionsAuth": ["VIEW_CHANNEL"],
+                    "permissionsForbid": [],
+                    "defaultMessage": ""
+                },
+                {
+                    "name": "♟ ➤ Échecs",
                     "type": "voice",
                     "permissionsAuth": ["VIEW_CHANNEL"],
                     "permissionsForbid": [],
